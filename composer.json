@@ -1,0 +1,19 @@
+{
+    "name": "fagai/laravel-voicetext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fagai",
+            "email": "fagai@fagai.net"
+        }
+    ],
+    "require": {
+        "fagai/voicetext" : "0.2",
+        "illuminate/support": "~5.0.17|5.1.*"
+    },
+     "autoload": {
+        "psr-4": {
+            "Fagai\\VoiceText\\": "src/"
+        }
+    }
+}
