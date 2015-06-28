@@ -1,5 +1,6 @@
 {
     "name": "fagai/laravel-voicetext",
+    "description": "",
     "license": "MIT",
     "authors": [
         {
@@ -8,8 +9,9 @@
         }
     ],
     "require": {
+        "php": ">=5.5.9",
         "fagai/voicetext" : "0.2",
-        "illuminate/support": "~5.0.17|5.1.*"
+        "illuminate/support": "5.1.*"
     },
      "autoload": {
         "psr-4": {
